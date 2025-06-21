@@ -1,0 +1,46 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path" : "pages/menu/menu",
+			"style" : 
+			{
+				"navigationBarTitleText" : "业余无线电刷题工具"
+			}
+		},
+		{
+			"path": "pages/sequential/sequential",
+			"style": {
+				"navigationBarTitleText": "顺序练习"
+			}
+		},
+		{
+			"path" : "pages/wrongReview/wrongReview",
+			"style" : 
+			{
+				"navigationBarTitleText" : "错题回顾"
+			}
+		},
+		{
+			"path" : "pages/exam/exam",
+			"style" : 
+			{
+				"navigationBarTitleText" : "模拟考试"
+			}
+		},
+		{
+			"path" : "pages/selectLevel/selectLevel",
+			"style" : 
+			{
+				"navigationBarTitleText" : "等级选择"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
